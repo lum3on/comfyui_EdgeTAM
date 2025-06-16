@@ -1,0 +1,21 @@
+# EdgeTAM ComfyUI Node Requirements
+
+# Core EdgeTAM dependencies
+torch>=2.3.1
+torchvision>=0.18.1
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Configuration and model management
+hydra-core>=1.1.0
+omegaconf>=2.1.0
+huggingface-hub>=0.16.0
+
+# Video processing
+moviepy>=1.0.3
+tqdm>=4.62.0
+# Note: decord replaced with OpenCV for Python 3.13 compatibility
+
+# Optional: for better performance
+# accelerate>=0.20.0
